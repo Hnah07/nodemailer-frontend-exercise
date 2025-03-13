@@ -39,12 +39,13 @@ input[type="date"],
 select,
 textarea {
   width: 100%;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem;
   border: 1px solid #333;
   border-radius: 4px;
   font-size: 1rem;
   background-color: #2d2d2d;
   color: #ffffff;
+  box-sizing: border-box;
 }
 
 input[type="color"] {
@@ -98,7 +99,6 @@ textarea:focus {
   box-shadow: 0 0 0 2px rgba(255, 0, 255, 0.25);
 }
 
-/* Style for select dropdown options */
 select option {
   background-color: #2d2d2d;
   color: #ffffff;
